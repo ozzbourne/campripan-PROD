@@ -33,7 +33,6 @@
   grid-template-columns: repeat(12, 1fr);
   text-align: center;
   /* Divider Images */
-  /* End Divider Images */
 }
 
 /* line 39, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
@@ -47,27 +46,35 @@
 }
 
 /* line 48, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
-.page-id-5576 .pattisjokkiMenu__Wrapper .menuImage--full {
+.page-id-5576 .pattisjokkiMenu__Wrapper .divider {
   grid-column: 1 / -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* line 52, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
-.page-id-5576 .pattisjokkiMenu__Wrapper .menuImage--right {
-  grid-column: span 7 / -1;
-  margin-top: 50px;
-  margin-bottom: -14px;
+/* line 55, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .divider--right {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
-/* line 60, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
-.page-id-5576 .pattisjokkiMenu__Wrapper .menuImage--left {
-  grid-column: 1 / span 7;
-  margin-top: 50px;
-  margin-bottom: -14px;
+/* line 59, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .divider--right img {
+  max-width: 60%;
+}
+
+/* line 64, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .divider--left {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 /* line 68, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
-.page-id-5576 .pattisjokkiMenu__Wrapper .menuImage--wideSpan--left {
-  grid-column: 1 / span 8;
+.page-id-5576 .pattisjokkiMenu__Wrapper .divider--left img {
+  max-width: 60%;
 }
 
 /* line 73, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */

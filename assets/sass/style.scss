@@ -45,30 +45,30 @@
     }
 
     /* Divider Images */
-    .menuImage--full {
+    .divider {
       grid-column: 1 / -1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
     }
 
-    .menuImage--right {
-      grid-column: span 7 / -1;
-      margin: {
-        top: 50px;
-        bottom: -14px;
+    .divider--right {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      img {
+        max-width: 60%;
       }
     }
 
-    .menuImage--left {
-      grid-column: 1 / span 7;
-      margin: {
-        top: 50px;
-        bottom: -14px;
+    .divider--left {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      img {
+        max-width: 60%;
       }
     }
-
-    .menuImage--wideSpan--left {
-      grid-column: 1 / span 8;
-    }
-    /* End Divider Images */
 
     .pattisjokkiMenu__PageHeading {
       font: {
