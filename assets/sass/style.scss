@@ -39,9 +39,37 @@
     * {
       grid-column: 3 / -3;
     }
-
+    p {
+      letter-spacing: 1px;
+    }
+    h5 {
+      letter-spacing: 2px;
+    }
     img {
       max-width: 100%;
+    }
+
+    .pattisjokkiMenu__MatFilosofi {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+      .pattisjokkiMenu__MatFilosofi--TextSection {
+        font-family: "AmericanTypewriter";
+        font-size: 18px;
+        grid-column: 2/-2;
+        p {
+          letter-spacing: 1px;
+          text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.4);
+        }
+        margin: {
+          top: 60px;
+          bottom: 180px;
+        }
+      }
     }
 
     /* Divider Images */
