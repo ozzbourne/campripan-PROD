@@ -37,7 +37,7 @@
 
 /* line 39, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper * {
-  grid-column: 3 / -3;
+  grid-column: 4 / -4;
 }
 
 /* line 42, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
@@ -48,36 +48,36 @@
 /* line 45, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper h5 {
   letter-spacing: 2px;
+  margin: 30px 0 0 0;
 }
 
-/* line 48, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 49, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper img {
   max-width: 100%;
 }
 
-/* line 52, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 53, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__MatFilosofi {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-/* line 56, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
-.page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__MatFilosofi img {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+/* line 57, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__MatFilosofi .pattisjokkiMenu__PageHeading {
+  font-size: 45px;
+  margin-top: 50px;
 }
 
-/* line 60, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 61, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__MatFilosofi .pattisjokkiMenu__MatFilosofi--TextSection {
   font-family: "AmericanTypewriter";
   font-size: 18px;
   grid-column: 2/-2;
-  margin-top: 60px;
-  margin-bottom: 180px;
+  margin-top: 20px;
 }
 
-/* line 64, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 65, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__MatFilosofi .pattisjokkiMenu__MatFilosofi--TextSection p {
   letter-spacing: 1px;
   text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.4);
@@ -100,7 +100,7 @@
 
 /* line 87, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .divider--right img {
-  max-width: 60%;
+  max-width: 55%;
 }
 
 /* line 92, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
@@ -112,7 +112,7 @@
 
 /* line 96, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .divider--left img {
-  max-width: 60%;
+  max-width: 55%;
 }
 
 /* line 101, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
@@ -123,28 +123,39 @@
   letter-spacing: 5px;
   margin-bottom: -50px;
   z-index: 1;
+  margin-top: 180px;
 }
 
-/* line 112, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 113, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .menuItem__heading {
   font-family: "BebasNeue";
   font-weight: 100;
-  font-size: 22px;
+  font-size: 28px;
   z-index: 1;
 }
 
-/* line 121, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 122, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .menuItem__info {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
 /* line 126, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .menuItem__price {
+  font-size: 20px;
+}
+
+/* line 129, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+.page-id-5576 .pattisjokkiMenu__Wrapper .menuItem__recommendedDrink {
+  font-size: 15px;
+}
+
+/* line 133, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper section {
   font-family: "AmericanTypewriter";
 }
 
-/* line 130, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 137, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer {
   grid-column: 1 / -1;
   display: grid;
@@ -155,7 +166,7 @@
   margin-right: 50px;
 }
 
-/* line 140, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 147, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .pattisjokkiMenu__FooterInfo {
   grid-column: 1 / -1;
   font-family: "AmericanTypewriter";
@@ -163,20 +174,20 @@
   margin-top: 80px;
 }
 
-/* line 149, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 156, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage {
   -webkit-transition: 1s;
   transition: 1s;
   position: relative;
 }
 
-/* line 153, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 160, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage img {
   padding-top: 15px;
   max-height: 50px;
 }
 
-/* line 157, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 164, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage .content {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -187,7 +198,7 @@
   transition: all 1s ease;
 }
 
-/* line 166, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 173, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage p {
   opacity: 0;
   visibility: hidden;
@@ -199,7 +210,7 @@
   padding-bottom: 15px;
 }
 
-/* line 179, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 186, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage:hover .content {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -211,7 +222,7 @@
   border-radius: 5px;
 }
 
-/* line 190, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 197, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage:hover p {
   opacity: 1;
   visibility: visible;
@@ -219,27 +230,27 @@
   transition: all 1s ease;
 }
 
-/* line 199, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 206, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage1 {
   grid-column: 1 / span 1;
 }
 
-/* line 202, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 209, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage2 {
   grid-column: 2 / span 1;
 }
 
-/* line 205, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 212, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage3 {
   grid-column: 3 / span 1;
 }
 
-/* line 208, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 215, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage4 {
   grid-column: 4 / span 1;
 }
 
-/* line 211, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
+/* line 218, /Users/ogrilus/Desktop/Lagring/Fat Brothers/Hemsida/pattisjokki/ripan.se/assets/sass/style.scss */
 .page-id-5576 .pattisjokkiMenu__Wrapper .pattisjokkiMenu__Footer .footerImage5 {
   grid-column: 5 / span 1;
 }
