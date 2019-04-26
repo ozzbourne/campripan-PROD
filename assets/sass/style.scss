@@ -16,7 +16,7 @@ $page-width: 1000px;
 
 /* All MenuPage content */
 .page-id-5576 {
-  overflow-x: hidden;
+  overflow: hidden;
   @media only screen and (min-width: $page-width) {
     background: {
       image: url("./images/paperBody.jpg");
