@@ -35,6 +35,9 @@ $page-width: 1000px;
       top: 80px;
       // bottom: 25px;
     }
+    @media only screen and (max-width: 625px) {
+      padding-top: 50px;
+    }
     background: {
       image: url("./images/paperWrapper.jpg");
       repeat: repeat;
@@ -68,6 +71,9 @@ $page-width: 1000px;
       .pattisjokkiMenu__PageHeading {
         // font-size: 45px;
         margin-top: 50px;
+        @media only screen and (max-width: 625px) {
+          margin-top: 0px;
+        }
       }
       .pattisjokkiMenu__MatFilosofi--TextSection {
         font-family: "AmericanTypewriter";
@@ -78,7 +84,6 @@ $page-width: 1000px;
         }
         @media only screen and (max-width: 625px) {
           font-size: 14px;
-          margin-top: 0;
         }
         p {
           letter-spacing: 1px;
@@ -199,6 +204,17 @@ $page-width: 1000px;
           bottom: 12px;
           top: 80px;
         }
+        @media only screen and (max-width: 625px) {
+          p {
+            span {
+              display: none;
+            }
+            &:after {
+              content: "Klicka på symbolerna nedan för mer info om vårat klimatsmarta
+              kök";
+            }
+          }
+        }
       }
       .pattisjokkiMenu__FooterImages {
         grid-column: 1 / -1;
@@ -223,6 +239,7 @@ $page-width: 1000px;
             @media only screen and (max-width: 900px) {
               -ms-flex-preferred-size: 50%;
               flex-basis: 50%;
+              margin: 0 auto;
             }
             // width: 250px;
           }
@@ -287,38 +304,18 @@ $page-width: 1000px;
 
       .footerImage1 {
         grid-column: 1 / span 1;
-        @media only screen and (max-width: 900px) {
-          // grid-column: auto;
-          margin: 0 auto;
-        }
       }
       .footerImage2 {
         grid-column: 2 / span 1;
-        @media only screen and (max-width: 900px) {
-          // grid-column: auto;
-          margin: 0 auto;
-        }
       }
       .footerImage3 {
         grid-column: 3 / span 1;
-        @media only screen and (max-width: 900px) {
-          // grid-column: auto;
-          margin: 0 auto;
-        }
       }
       .footerImage4 {
         grid-column: 4 / span 1;
-        @media only screen and (max-width: 900px) {
-          grid-column: auto;
-          margin: 0 auto;
-        }
       }
       .footerImage5 {
         grid-column: 5 / span 1;
-        @media only screen and (max-width: 900px) {
-          grid-column: auto;
-          margin: 0 auto;
-        }
       }
     }
   }
