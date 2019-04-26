@@ -15,7 +15,8 @@
 $page-width: 1000px;
 
 /* All MenuPage content */
-.page-id-5576 {
+.page-id-5576,
+.page-id-INSET-HERE {
   @media only screen and (min-width: $page-width) {
     background: {
       image: url("./images/paperBody.jpg");
@@ -49,7 +50,12 @@ $page-width: 1000px;
     * {
       grid-column: 4 / -4;
       @media only screen and (max-width: 625px) {
-        grid-column: 3 / -3;
+        grid-column: 2 / -2;
+      }
+      &.pattisjokkiMenu__Page--Dryck {
+        @media only screen and (max-width: 900px) {
+          grid-column: 2 / -2;
+        }
       }
     }
     p {
@@ -87,6 +93,9 @@ $page-width: 1000px;
         }
         p {
           letter-spacing: 1px;
+          @media only screen and (max-width: 625px) {
+            line-height: 18px;
+          }
           // text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.4);
         }
       }
@@ -165,9 +174,21 @@ $page-width: 1000px;
       z-index: 1;
     }
 
+    .menuItem__heading--h6 {
+      font-size: 15px;
+      margin: {
+        bottom: 0px;
+        top: 50px;
+      }
+    }
+
     .menuItem__info {
       font-size: 18px;
-      margin-bottom: 20px;
+      padding: 0;
+      margin: {
+        bottom: 0;
+        top: 15px;
+      }
     }
     .menuItem__price {
       font-size: 20px;
