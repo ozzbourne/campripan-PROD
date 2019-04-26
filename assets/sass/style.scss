@@ -16,6 +16,7 @@ $page-width: 1000px;
 
 /* All MenuPage content */
 .page-id-5576 {
+  overflow-x: hidden;
   @media only screen and (min-width: $page-width) {
     background: {
       image: url("./images/paperBody.jpg");
@@ -100,6 +101,7 @@ $page-width: 1000px;
       @media only screen and (max-width: 625px) {
         width: 110%;
         justify-self: center;
+        // overflow: hidden;
       }
     }
     .divider--right {
